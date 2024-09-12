@@ -1,25 +1,25 @@
-# `ghcr.io/amp-buildpacks/fuel-builder`
+# `ghcr.io/amp-buildpacks/sway-builder`
 
-A Cloud Native Buildpacks (CNB) builder with Paketo stacks (Jammy Jellyfish) and fuel-builder
+A Cloud Native Buildpacks (CNB) builder with Paketo stacks (Jammy Jellyfish) and sway-builder
 
 ## Usage
 
 To create the builder, just run
 
 ```shell
-pack builder create <published-to>/fuel-builder --config builder.toml
+pack builder create <published-to>/sway-builder --config builder.toml
 ```
 
 For example
 
 ```shell
-pack builder create amp-buildpacks/fuel-builder --config builder.toml
+pack builder create amp-buildpacks/sway-builder --config builder.toml
 ```
 
 You can then build an app with it using 
 
 ```shell
-pack build <image-name> --builder <published-to>/fuel-builder
+pack build <image-name> --builder <published-to>/sway-builder
 ```
 
 ## Contributing
