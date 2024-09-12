@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-description = "A Cloud Native Buildpacks (CNB) builder with Paketo stacks (Jammy Jellyfish) and fuel-builder"
+description = "A Cloud Native Buildpacks (CNB) builder with Paketo stacks (Jammy Jellyfish) and sway-builder"
 
 [[buildpacks]]
-  id = "amp-buildpacks/fuel"
-  uri = "docker://ghcr.io/amp-buildpacks/fuel:0.1.0"
+  id = "amp-buildpacks/sway"
+  uri = "docker://ghcr.io/amp-buildpacks/sway:0.1.1"
 
 
 [[order]]
 
   [[order.group]]
-    id = "amp-buildpacks/fuel"
+    id = "amp-buildpacks/sway"
     version = "0.1.0"
 
 
