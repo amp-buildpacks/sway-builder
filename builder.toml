@@ -23,7 +23,7 @@ description = "A Cloud Native Buildpacks (CNB) builder with Paketo stacks (Jammy
 
   [[order.group]]
     id = "amp-buildpacks/sway"
-    version = "0.1.0"
+    version = "0.1.1"
 
 
 [stack]
